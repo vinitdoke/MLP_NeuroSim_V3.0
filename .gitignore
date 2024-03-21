@@ -3,5 +3,4 @@ label60000_train.txt
 patch10000_test.txt
 patch60000_train.txt
 *.o
-.depend
 output.csv
