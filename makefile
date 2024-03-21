@@ -44,7 +44,7 @@ SRC := $(filter-out $(MAINS),$(ALLSRC))
 ALLOBJ := $(ALLSRC:.cpp=.o)
 OBJ := $(SRC:.cpp=.o)
 
-CXX := g++-13
+CXX := g++
 CXXFLAGS := -fopenmp -O3 -std=c++0x -w
 
 .PHONY: all clean
