@@ -59,7 +59,7 @@ Param::Param() {
 	minWeight = -1;	// Lower bound of weight value
 	/*Optimization method 
 	Available option include: "SGD", "Momentum", "RMSprop" and "Adam"*/
-	optimization_type = "SGD";
+	optimization_type = "Adam";
 
 
 	/* Hardware parameters */
